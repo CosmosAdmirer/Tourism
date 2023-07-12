@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--Minified CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="owl.carousel.min.css" />
+    <link rel="styelsheet" href="owl.theme.default.min.css" />
+    <!--Importing Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!--Header Section Begins From Here-->
+    <div class="header w-100">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 p-0">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+                        <div class="container-fluid">
+                            <div>
+                                <a class="navbar-brand" href="#"><img class="img-fluid"
+                                        src="header-logo.png" alt="header-logo" /></a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Popular Destination</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Tour Packages</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Pages
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <li><a class="dropdown-item" href="#">About Us</a></li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">404 Page</a>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="button-part">
+                                <button class="btn btn-primary btn-primary-header text-white" type="submit"
+                                    data-bs-toggle="modal" data-bs-target="#myModal">
+                                    Sign up/login
+                                </button>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Header Section Ends Here-->
+
+    <!--Banner Section Begins From Here-->
+    <div class="banner w-100 position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="banner-text position-relative">
+                        <h2 class="text-uppercase text-start position-relative fw-300">
+                            Discover
+                        </h2>
+                        <h5 class="text-start position-relative fw-300">
+                            The World Together
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Banner Section Ends Here-->
+
+    <!--Banner Part Section Begins From Here-->
+    <div class="banner-part w-100 position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <div class="row reservation position-relative">
+
+                        <div class="col-md-3 check-in-data position-relative">
+                            <div class="flaticon position-absolute">
+                                <img src="map.png" alt="map" />
+                            </div>
+                            <label class="" for="autoSizingSelect"></label>
+                            <select class="form-select px-5" id="autoSizingSelect">
+                                <option selected>From</option>
+                                <option value="1">India</option>
+                                <option value="2">USA</option>
+                                <option value="3">UK</option>
+                                <option value="4">JAPAN</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 check-in-data position-relative">
+                            <div class="flaticon position-absolute">
+                                <img src="map.png" alt="map" />
+                            </div>
+                            <label class="" for="autoSizingSelect"></label>
+                            <select class="form-select px-5" id="autoSizingSelect">
+                                <option selected>To</option>
+                                <option value="1">India</option>
+                                <option value="2">USA</option>
+                                <option value="3">UK</option>
+                                <option value="4">JAPAN</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 check-in-data position-relative">
+                            <div class="flaticon flat-calendar position-absolute">
+                                <img src="calendar (1).png" alt="calendar" />
+                            </div>
+                            <div class="input-group pt-4">
+                                <label class="" for=""></label>
+                                <input type="text" class="form-control" id="datepicker" placeholder="Depart Date" />
+                            </div>
+                        </div>
+                        <div class="col-md-2 check-in-data position-relative">
+                            <div class="flaticon flat-calendar position-absolute">
+                                <img src="calendar (1).png" alt="calendar" />
+                            </div>
+                            <div class="input-group pt-4">
+                                <label class="" for=""></label>
+                                <input type="text" class="form-control" id="datepicker1" placeholder="Return Date" />
+                            </div>
+                        </div>
+                        <div class="col-md-2 check-in-data position-relative">
+                            <div class="flaticon position-absolute">
+                                <img src="passenger.png" alt="passenger" />
+                            </div>
+                            <label class="" for="autoSizingSelect"></label>
+                            <select class="form-select px-5 select_join" id="autoSizingSelect">
+                                <option selected>Traveller</option>
+                                <option value="1">India</option>
+                                <option value="2">USA</option>
+                                <option value="3">UK</option>
+                                <option value="4">JAPAN</option>
+                            </select>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <button class="btn btn-primary banner-part-btn w-100 mt-5 text-white"
+                                    type="button">Search <span class="arr-img"><img
+                                            src="right-arrows (1).png"
+                                            alt="right-arrows" /></span></button>
+
+                            </div>
+                        </div>
+                        <div class="row position-absolute navtab-row">
+                            <ul class="nav justify-content-end">
+                                <li class="nav-item navtab-item">
+                                    <a class="nav-link navtab-link active text-uppercase" aria-current="page"
+                                        href="#">hotels</a>
+                                </li>
+                                <li class="nav-item navtab-item">
+                                    <a class="nav-link navtab-link text-uppercase" href="#">flight</a>
+                                </li>
+                                <li class="nav-item navtab-item">
+                                    <a class="nav-link navtab-link text-uppercase" href="#">packages</a>
+                                </li>
+                                <li class="nav-item navtab-item">
+                                    <a class="nav-link navtab-link text-uppercase" href="#">holiday</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--Banner Part Section Ends Here-->
+
+    <!--About Section Begins From Here-->
+    <div class="about w-100">
+        <div class="container">
+            <div class="row justify-content-center mt-2 pt-2 pb-2">
+                <div class="col-lg-6">
+                    <div class="abt-head text-white text-center">
+                        <h5 class="text-uppercase"><span class="fade-in-left new">a</span>
+                            <span class="fade-in-left new">b</span> <span class="fade-in-left new">o</span> <span
+                                class="fade-in-left new">u</span> <span class="fade-in-left new">t</span> <span
+                                class="fade-in-left new">u</span>
+                            <span class="fade-in-left new">s</span>
+                        </h5>
+
+                    </div>
+                    <div class="text-start abt-sub-head pt-4">
+                        <h3 class="swirl-in-bck">Explore more about our travel agency</h3>
+                    </div>
+                    <div class="abt-para pt-4">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiuod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu.</p>
+                    </div>
+                    <div class="abt-para pt-3">
+                        <p>fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error
+                            sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+
+                        </p>
+                    </div>
+                    <div class="abt-button">
+                        <button class="btn btn-primary btn-primary-header btn-abt text-white" type="submit">
+                            Explore More
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="abt-image d-flex gap-4 ">
+                        <div class="abt-img-one position-relative">
+                            <img class="img-fluid" src="about-image-1.jpg" alt="scenary" />
+                            <div class="overlay position-absolute overlaytop">
+                                <div class="overlay-content position-absolute">
+                                    <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="" height="" fill="#fff"
+                                            class="bi bi-link-45deg" viewBox="0 0 16 16">
+                                            <path
+                                                d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z" />
+                                            <path
+                                                d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z" />
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="abt-img-one pt-5 position-relative">
+                            <img class="img-fluid" src="about-image-2.jpg" alt="scenary" />
+                            <div class="overlay position-absolute overlaytop overlaytopnew">
+                                <div class="overlay-content position-absolute">
+                                    <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="" height="" fill="#fff"
+                                            class="bi bi-link-45deg" viewBox="0 0 16 16">
+                                            <path
+                                                d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z" />
+                                            <path
+                                                d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z" />
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--About Section Ends Here-->
+
+    <!--Popular Destination Section Begins From Here-->
+    <div class="populardest w-100 mt-4 mb-2 pt-4 pb-2">
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center ">
+                <div class="col-lg-12">
+                    <div class="abt-head text-white text-center poptitle">
+                        <h5 class="text-uppercase"><span class="fade-in-left new">p </span> <span
+                                class="fade-in-left new">o </span> <span class="fade-in-left new">p</span> <span
+                                class="fade-in-left new">u</span> <span class="fade-in-left new">l</span>
+                            <span class="fade-in-left new">a</span> <span class="fade-in-left new">r</span> <span
+                                class="fade-in-left new">d</span> <span class="fade-in-left new">e</span> <span
+                                class="fade-in-left new">s</span>
+                            <span class="fade-in-left new">t</span> <span class="fade-in-left new">i</span> <span
+                                class="fade-in-left new">n</span> <span class="fade-in-left new">a</span> <span
+                                class="fade-in-left new">t</span> <span class="fade-in-left new">i</span> <span
+                                class="fade-in-left new">o</span>
+                            <span class="fade-in-left new">n</span>
+                        </h5>
+                    </div>
+                    <div class="pt-3">
+                        <h3 class="text-center swirl-in-bck">The places where most of the visitor come</h3>
+                    </div>
+                    <div class="">
+                        <ul class="nav justify-content-center placetabs">
+                            <li class="nav-item divider">
+                                <a class="nav-link placetablink active" aria-current="page" href="#">Asia</a>
+                            </li>
+                            <li class="nav-item divider">
+                                <a class="nav-link placetablink" href="#">Africa</a>
+                            </li>
+                            <li class="nav-item divider">
+                                <a class="nav-link placetablink" href="#">North America</a>
+                            </li>
+                            <li class="nav-item divider">
+                                <a class="nav-link placetablink" href="#">South America</a>
+                            </li>
+                            <li class="nav-item divider">
+                                <a class="nav-link placetablink" href="#">Antarctica</a>
+                            </li>
+                            <li class="nav-item divider">
+                                <a class="nav-link placetablink" href="#">Europe</a>
+                            </li>
+                            <li class="nav-item divider">
+                                <a class="nav-link placetablink" href="#">Australia</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center mt-2 pt-4 pb-2 g-1">
+
+                <div class="col-lg-3 col-md-6 col-4">
+                    <div class="popimg position-relative">
+                        <img class="img-fluid" src="popular-destination-1.jpg" alt="scenary" />
+                        <div class="over position-absolute text-center newover">
+                            <div class="newover-content position-relative text-white">
+                                <div class="popbutton">
+                                    <button type="submit" class="btn btn-btn">10 Photos</button>
+                                </div>
+                                <div class="pophead">
+                                    <h3>St Mark's Campanile</h3>
+                                </div>
+                                <div class="poplink">
+                                    <h6>View All Places <span class="arr-img"><img
+                                                src="right-arrows (1).png" alt="" /></span>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-4">
+                    <div class="popimg position-relative">
+                        <img class="img-fluid" src="popular-destination-2.jpg" alt="scenary" />
+                        <div class="over position-absolute text-center newover">
+                            <div class="newover-content position-relative text-white">
+                                <div class="popbutton">
+                                    <button type="submit" class="btn btn-btn">10 Photos</button>
+                                </div>
+                                <div class="pophead">
+                                    <h3>St Mark's Campanile</h3>
+                                </div>
+                                <div class="poplink">
+                                    <h6>View All Places <span class="arr-img"><img
+                                                src="right-arrows (1).png" alt="" /></span>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-4">
+                    <div class="popimg position-relative">
+                        <img class="img-fluid" src="popular-destination-3.jpg" alt="scenary" />
+                        <div class="over position-absolute text-center newover">
+                            <div class="newover-content position-relative text-white">
+                                <div class="popbutton">
+                                    <button type="submit" class="btn btn-btn">10 Photos</button>
+                                </div>
+                                <div class="pophead">
+                                    <h3>St Mark's Campanile</h3>
+                                </div>
+                                <div class="poplink">
+                                    <h6>View All Places <span class="arr-img"><img
+                                                src="right-arrows (1).png" alt="" /></span>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-4">
+                    <div class="popimg position-relative">
+                        <img class="img-fluid" src="popular-destination-4.jpg" alt="scenary" />
+                        <div class="over position-absolute text-center newover">
+                            <div class="newover-content position-relative text-white">
+                                <div class="popbutton">
+                                    <button type="submit" class="btn btn-btn">10 Photos</button>
+                                </div>
+                                <div class="pophead">
+                                    <h3>St Mark's Campanile</h3>
+                                </div>
+                                <div class="poplink">
+                                    <h6>View All Places <span class="arr-img"><img
+                                                src="right-arrows (1).png" alt="" /></span>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row justify-content-center align-items-center mt-2 mb-2 pt-2 pb-2">
+                <div class="col-md-12">
+                    <div class="dest-button-box text-center">
+                        <button class="btn btn-primary btn-primary-header btn-dest btn-abt text-white" type="submit">
+                            View All Places
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <hr class="mx-auto w-75 mt-5 ">
+        </div>
+    </div>
+    <!--Popular Destination Section Ends Here-->
+
+    <!--Tour Package Section Begins From Here-->
+    <div class="tpackage  w-100 mt-4 mb-2 pt-4 pb-2">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+
+                <div class="col-lg-12">
+                    <div class="abt-head text-white text-center poptitle">
+                        <h5 class="text-uppercase"><span class="fade-in-left new">t </span> <span
+                                class="fade-in-left new">o </span> <span class="fade-in-left new">u</span> <span
+                                class="fade-in-left new">r</span>
+                            <span class="">p</span> <span class="">a</span> <span class="">c</span> <span
+                                class="">k</span> <span class="">a</span> <span class="">g</span> <span
+                                class="">e</span> <span class="">s</span>
+                        </h5>
+                    </div>
+                    <div class="pt-3">
+                        <h3 class="text-center swirl-in-bck">The reasonable prices for the beautiful places</h3>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row justify-content-center align-items-center mt-2 mb-2 pt-2 pb-2">
+                <div class="col-lg-4">
+                    <div class="travelpack position-relative">
+                        <div class="tourimg position-relative text-center">
+                            <img class="img-fluid" src="tour-package-1.jpg" />
+                            <div class="touroverlay position-absolute text-center">
+                                <div class="tour-content position-relative text-white">
+                                    <div class="popbutton">
+                                        <button type="submit" class="btn btn-btn">10 Photos</button>
+                                    </div>
+                                    <div class="pophead">
+                                        <h3>St Mark's Campanile</h3>
+                                    </div>
+                                    <div class="poplink">
+                                        <h6>View All Places <span class="arr-img"><img
+                                                    src="right-arrows (1).png" alt="" /></span>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="travel-text text-center">
+                            <h3>Rome, Arkansas, USA </h3>
+                            <p>for 7Days <span>|</span> $ 780.00 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="travelpack position-relative">
+                        <div class="tourimg position-relative text-center">
+                            <img class="img-fluid" src="tour-package-2.jpg" />
+                            <div class="touroverlay position-absolute text-center">
+                                <div class="tour-content position-relative text-white">
+                                    <div class="popbutton">
+                                        <button type="submit" class="btn btn-btn">10 Photos</button>
+                                    </div>
+                                    <div class="pophead">
+                                        <h3>St Mark's Campanile</h3>
+                                    </div>
+                                    <div class="poplink">
+                                        <h6>View All Places <span class="arr-img"><img
+                                                    src="right-arrows (1).png" alt="" /></span>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="travel-text text-center">
+                            <h3>Rome, Arkansas, USA </h3>
+                            <p>for 7Days <span>|</span> $ 780.00 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="travelpack position-relative">
+                        <div class="tourimg position-relative text-center">
+                            <img class="img-fluid" src="tour-package-3.jpg" />
+                            <div class="touroverlay position-absolute text-center">
+                                <div class="tour-content position-relative text-white">
+                                    <div class="popbutton">
+                                        <button type="submit" class="btn btn-btn">10 Photos</button>
+                                    </div>
+                                    <div class="pophead">
+                                        <h3>St Mark's Campanile</h3>
+                                    </div>
+                                    <div class="poplink">
+                                        <h6>View All Places <span class="arr-img"><img
+                                                    src="right-arrows (1).png" alt="" /></span>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="travel-text text-center">
+                            <h3>Rome, Arkansas, USA </h3>
+                            <p>for 7Days <span>|</span> $ 780.00 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center mt-2 mb-2 pt-2 pb-2">
+                <div class="col-md-12">
+                    <div class="dest-button-box text-center">
+                        <button class="btn btn-primary btn-primary-header btn-dest btn-abt text-white" type="submit">
+                            View All Packages
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Tour Package Section Ends Here-->
+
+    <!--Testimonial Section Begins From Here-->
+    <div class="testimonial w-100 mt-4 mb-5 pt-4 pb-4 position-relative">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-12">
+                    <div class="abt-head text-white text-center poptitle">
+                        <h5 class="text-uppercase">testimonial</h5>
+                    </div>
+                    <div class="pt-3">
+                        <h3 class="text-center text-white">Positive feedbacks from our clients & blogers</h3>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center mt-2 mb-2 pt-2 pb-2 position-relative">
+                <div class="row-test position-absolute pb-2">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="testimonial-card">
+                                <div class="uppercont d-flex gap-2">
+                                    <div class="testimg">
+                                        <img src="testimonial-1.png" alt="clients-image" />
+                                    </div>
+                                    <div class="testcont text-center">
+                                        <h4 class="testname pt-4">Eliza Miranda</h4>
+                                        <p class="testp">Travel Blogger</p>
+                                        <ul class="stars d-flex">
+                                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-star-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                    </svg></a></li>
+                                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-star-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                    </svg></a></li>
+                                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-star-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                    </svg></a></li>
+                                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-star-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                    </svg></a></li>
+                                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-star-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                    </svg></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="testpara">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                        nulla
+                                        pariatur.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="testimonial-card">
+                                <div class="uppercont d-flex gap-2">
+                                    <div class="testimg">
+                                        <img src="testimonial-2.png" alt="clients-image" />
+                                    </div>
+                                    <div class="testcont text-center">
+                                        <h4 class="testname pt-4">Maria D'costa</h4>
+                                        <p class="testp">Travel Blogger</p>
+                                        <ul class="stars d-flex">
+                                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-star-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                    </svg></a></li>
+                                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-star-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                    </svg></a></li>
+                                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-star-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                    </svg></a></li>
+                                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-star-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                    </svg></a></li>
+                                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-star-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                    </svg></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="testpara">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                        nulla
+                                        pariatur.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-card">
+                                <div class="uppercont d-flex gap-2">
+                                    <div class="testimg">
+                                        <img src="testimonial-1.png" alt="clients-image" />
+                                    </div>
+                                    <div class="testcont text-center">
+                                        <h4 class="testname pt-4">Jenny D'souza</h4>
+                                        <p class="testp">Travel Blogger</p>
+                                        <ul class="stars d-flex">
+                                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-star-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                    </svg></a></li>
+                                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-star-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                    </svg></a></li>
+                                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-star-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                    </svg></a></li>
+                                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-star-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                    </svg></a></li>
+                                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-star-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                    </svg></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="testpara">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                        nulla
+                                        pariatur.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-card">
+                                <div class="uppercont d-flex gap-2">
+                                    <div class="testimg">
+                                        <img src="testimonial-2.png" alt="clients-image" />
+                                    </div>
+                                    <div class="testcont text-center">
+                                        <h4 class="testname pt-4">Denny D'souza</h4>
+                                        <p class="testp">Travel Blogger</p>
+                                        <ul class="stars d-flex">
+                                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-star-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                    </svg></a></li>
+                                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-star-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                    </svg></a></li>
+                                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-star-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                    </svg></a></li>
+                                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-star-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                    </svg></a></li>
+                                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor" class="bi bi-star-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                    </svg></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="testpara">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                        nulla
+                                        pariatur.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mb-4 newsletter-row">
+                <div class="col-lg-6">
+                    <div class="newsletter ">
+                        <h3>Subscribe to our newsletter</h3>
+                        <p>If you Subscribe to our newsletter, we’ll send you the best deals for you and updates.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="subsearch position-relative">
+                        <form class="sub-form">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Your e-mail here" aria-label="">
+                            </div>
+                            <div class="subsearch-button position-absolute">
+                                <button
+                                    class="btn btn-primary btn-primary-header btn-dest btn-abt text-white subsearchbtn"
+                                    type="submit">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Testimonial Section Ends Here-->
+
+    <!--Blog Section Begins From Here-->
+    <div class="blog w-100 mt-4 mb-4 pt-4 pb-4">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-12">
+                    <div class="abt-head text-white text-center poptitle">
+                        <h5 class="text-uppercase"><span class="fade-in-left new">t</span> <span
+                                class="fade-in-left new">o</span>
+                            <span class="fade-in-left new">g</span> <span class="fade-in-left new">e</span> <span
+                                class="fade-in-left new">t</span> <span class="">m</span> <span class="">o</span>
+                            <span class="">r</span> <span class="">e</span> <span class="">t</span> <span
+                                class="">i</span> <span class="">p</span>
+                            <span class="">s</span> <span class="">&</span> <span class="">t</span> <span
+                                class="">r</span> <span class="">i</span>
+                            <span class="">c</span> <span class="">k</span> <span class="">s</span>
+                        </h5>
+                    </div>
+                    <div class="pt-3">
+                        <h3 class="text-center">Read Our Daily Blog</h3>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row justify-content-center mt-2 pt-4 pb-2">
+                <div class="col-lg-6">
+                    <div class="blogimg position-relative">
+                        <img class="img-fluid" src="blog-card-image-1 (1).jpg" alt="scenary" />
+                        <div class="blogoverlay position-absolute">
+                            <div
+                                class="blogcomm-content position-relative text-white justify-content-center align-items-center d-flex gap-4">
+                                <div class="daicon  justify-content-center align-items-center text-center d-flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                                        class="bi bi-calendar3" viewBox="0 0 16 16">
+                                        <path
+                                            d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+                                        <path
+                                            d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                                    </svg>
+
+
+                                    <span class="text-white text-uppercase">03 APR</span>
+                                </div>
+                                <div class="comicon justify-content-center align-items-center text-center d-flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                                        class="bi bi-person-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                    </svg>
+                                    <span class="text-white text-uppercase">John Anderson</span>
+                                </div>
+
+                            </div>
+                            <div
+                                class="bloghead justify-content-center align-items-center text-white text-center blogcomm-content">
+                                <h4>How Not To Get Lost In Foreign Country</h4>
+                            </div>
+                            <div
+                                class="blogpara justify-content-center align-items-center text-white text-center blogcomm-content">
+                                <h6>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore magna aliquyam erat.</h6>
+                            </div>
+                            <div
+                                class="bloglink justify-content-center align-items-center d-flex gap-2 blogcomm-content">
+                                <div>
+                                    <span class="text-white ">Read Article</span>
+                                </div>
+                                <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                                        class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z" />
+                                        <path fill-rule="evenodd"
+                                            d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z" />
+                                    </svg></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="blogimgoverlay  position-relative">
+                        <div class="blogimgoverbox">
+                            <img class="" src="blog-1.jpg" alt="scenary" />
+                        </div>
+                        <div class="blogbox position-absolute ">
+
+
+                            <div
+                                class="blogimgoverlaybox justify-content-center align-items-center text-center d-flex gap-5">
+
+
+                                <div class="daicon  justify-content-center align-items-center text-center d-flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=""
+                                        class="bi bi-calendar3 blogicons" viewBox="0 0 16 16">
+                                        <path
+                                            d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+                                        <path
+                                            d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                                    </svg>
+
+
+                                    <span class="text-uppercase">03 APR</span>
+                                </div>
+                                <div class="comicon justify-content-center align-items-center text-center d-flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=""
+                                        class="bi bi-person-fill blogicons" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                    </svg>
+                                    <span class="text-uppercase">John Anderson</span>
+                                </div>
+                            </div>
+                            <div class="bloghead justify-content-center align-items-center text-center pt-2">
+                                <h4>How Not To Get Lost In Foreign Country</h4>
+                            </div>
+                            <div class="blogpara justify-content-center align-items-center text-center">
+                                <h6>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore magna aliquyam erat.</h6>
+                            </div>
+                            <div class="bloglink justify-content-center align-items-center d-flex gap-2">
+                                <div>
+                                    <span class="">Read Article</span>
+                                </div>
+                                <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=""
+                                        class="bi bi-box-arrow-up-right blogicons" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z" />
+                                        <path fill-rule="evenodd"
+                                            d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z" />
+                                    </svg></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blogimgoverlay  position-relative mt-2">
+                        <div class="blogimgoverbox">
+                            <img class="" src="blog-2.jpg" alt="scenary" />
+                        </div>
+                        <div class="blogbox position-absolute ">
+
+
+                            <div
+                                class="blogimgoverlaybox justify-content-center align-items-center text-center d-flex gap-5">
+
+
+                                <div class="daicon  justify-content-center align-items-center text-center d-flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=""
+                                        class="bi bi-calendar3 blogicons" viewBox="0 0 16 16">
+                                        <path
+                                            d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+                                        <path
+                                            d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                                    </svg>
+
+
+                                    <span class="text-uppercase">03 APR</span>
+                                </div>
+                                <div class="comicon justify-content-center align-items-center text-center d-flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=""
+                                        class="bi bi-person-fill blogicons" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                    </svg>
+                                    <span class="text-uppercase">John Anderson</span>
+                                </div>
+                            </div>
+                            <div class="bloghead justify-content-center align-items-center text-center pt-2">
+                                <h4>The Best Places To Visit With Family</h4>
+                            </div>
+                            <div class="blogpara justify-content-center align-items-center text-center">
+                                <h6>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore magna aliquyam erat.</h6>
+                            </div>
+                            <div class="bloglink justify-content-center align-items-center d-flex gap-2">
+                                <div>
+                                    <span class="">Read Article</span>
+                                </div>
+                                <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=""
+                                        class="bi bi-box-arrow-up-right blogicons" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z" />
+                                        <path fill-rule="evenodd"
+                                            d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z" />
+                                    </svg></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blogimgoverlay  position-relative mt-2">
+                        <div class="blogimgoverbox">
+                            <img class="" src="blog-3.jpg" alt="scenary" />
+                        </div>
+                        <div class="blogbox position-absolute">
+
+
+                            <div
+                                class="blogimgoverlaybox justify-content-center align-items-center text-center d-flex gap-5">
+
+
+                                <div class="daicon  justify-content-center align-items-center text-center d-flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=""
+                                        class="bi bi-calendar3 blogicons" viewBox="0 0 16 16">
+                                        <path
+                                            d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+                                        <path
+                                            d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                                    </svg>
+
+
+                                    <span class="text-uppercase">03 APR</span>
+                                </div>
+                                <div class="comicon justify-content-center align-items-center text-center d-flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=""
+                                        class="bi bi-person-fill blogicons" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                    </svg>
+                                    <span class="text-uppercase">John Anderson</span>
+                                </div>
+                            </div>
+                            <div class="bloghead justify-content-center align-items-center text-center pt-2">
+                                <h4>How To Spend A Perfect Weekend In Asia Together</h4>
+                            </div>
+                            <div class="blogpara justify-content-center align-items-center text-center">
+                                <h6>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore magna aliquyam erat.</h6>
+                            </div>
+                            <div class="bloglink justify-content-center align-items-center d-flex gap-2">
+                                <div>
+                                    <span class="">Read Article</span>
+                                </div>
+                                <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=""
+                                        class="bi bi-box-arrow-up-right blogicons" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z" />
+                                        <path fill-rule="evenodd"
+                                            d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z" />
+                                    </svg></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center mt-2 mb-2 pt-2 pb-2">
+                    <div class="col-md-12">
+                        <div class="dest-button-box text-center">
+                            <button class="btn btn-primary btn-primary-header btn-dest btn-abt text-white"
+                                type="submit">
+                                Explore Blog
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Blog Section Ends Here-->
+
+    <!--Footer Section Begins From Here-->
+    <div class="footer w-100 mt-4 pt-4 pb-2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 footer-first">
+                    <div class="footer-content">
+                        <div class="footer-logo">
+                            <a href="#"><img src="header-logo.png" alt="logo" /></a>
+                        </div>
+                    </div>
+                    <ul class="footer-address">
+                        <li><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                                </svg></span> <span>hello@travel.com</span></li>
+                        <li><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-telephone-plus" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                    <path fill-rule="evenodd"
+                                        d="M12.5 1a.5.5 0 0 1 .5.5V3h1.5a.5.5 0 0 1 0 1H13v1.5a.5.5 0 0 1-1 0V4h-1.5a.5.5 0 0 1 0-1H12V1.5a.5.5 0 0 1 .5-.5z" />
+                                </svg></span> <span> +44 5346 338 </span></li>
+                        <li><span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-pin-map" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z" />
+                                    <path fill-rule="evenodd"
+                                        d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z" />
+                                </svg></span> <span> 3 Edgar Buildings, England,
+                                BA1 2FJ.</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 footer-second">
+                    <div class="footer-link">
+                        <a href="#">
+                            <h3>Quick Links</h3>
+                        </a>
+                    </div>
+                    <ul class="footer-links">
+                        <li><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg> </span> <span> Popular Tour</span></li>
+                        <li><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></span> <span> Blog</span></li>
+                        <li><span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></span> <span> Shop</span></li>
+                        <li><span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></span> <span> FAQ's</span></li>
+                        <li><span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></span> <span> Privacy Policy</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 footer-third">
+                    <div class="footer-link">
+                        <a href="#">
+                            <h3>Important Links</h3>
+                        </a>
+                    </div>
+                    <ul class="footer-links">
+                        <li><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg> </span> <span> Destination</span></li>
+                        <li><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></span> <span> Get In Touch</span></li>
+                        <li><span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></span> <span> Who We Are</span></li>
+                        <li><span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></span> <span> Contact Us</span></li>
+                        <li><span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></span> <span> Hotels</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 footer-last">
+                    <div class="footer-link">
+                        <a href="#">
+                            <h3>Instafeed</h3>
+                        </a>
+                    </div>
+                    <ul class=" instapic">
+                        <li class="d-flex gap-2"><span><img class="img-fluid" src="instafeed-1.jpg"
+                                    alt="scenary" /></span>
+                            <span><img class="img-fluid" src="instafeed-2.jpg" alt="scenary" /></span>
+                            <span><img class="img-fluid" src="instafeed-3.jpg" alt="scenary" /></span>
+                        </li>
+                        <li class="d-flex gap-2 pt-2"><span><img class="img-fluid" src="instafeed-4.jpg"
+                                    alt="scenary" /></span>
+                            <span><img class="img-fluid" src="instafeed-5.jpg" alt="scenary" /></span>
+                            <span><img class="img-fluid" src="instafeed-6.jpg" alt="scenary" /></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--Footer Section Ends Here-->
+
+    <!--Copyright Section Begins From Here-->
+    <div class="copyright w-100  text-white fw-bold pt-4 pb-4">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="copysection d-flex d-sm-block">
+                        <div class="col-lg-6  leftcopy text-start text-md-center text-sm-center">
+                            <span>Copyright @2022 Travel. Designed & Developed By Trisha</span>
+                        </div>
+                        <div class="col-lg-6   rightcopy text-end text-md-center text-sm-center">
+                            <span>Follow : <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                        <path
+                                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                    </svg></span>
+                                <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                    </svg></span>
+                                <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg> </span>
+                                <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Copyright Section Ends Here-->
+    <!--LogIn Modal-->
+    <div class="modal modal-show" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-uppercase text-white">Sign Up/Log In</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="pt-4 modal-body">
+                    <label for="name" class="form-label pt-2 pb-2">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" name="Name">
+                    <label for="email" class="form-label pt-2 pb-2">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" name="Email">
+                    <label for="message" class="form-label pt-2 pb-2">Message:</label>
+                    <textarea class="form-control" id="message" rows="5" name="Message"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary btn-save">Save changes</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--LogIn Modal Ends Here-->
+    <button id="btnscrollToTop"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+            class="bi bi-arrow-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+        </svg>
+    </button>
+
+
+    <!--Minified JS-->
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="owl.carousel.js"></script>
+    <script>
+        $(function () {
+            $("#datepicker").datepicker();
+            $("#datepicker1").datepicker();
+        });
+
+        $('.owl-carousel').owlCarousel({
+            rtl: false,
+            loop: true,
+            dots: false,
+            autoplay: true,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        });
+
+        const btnscrollTop = document.querySelector("#btnscrollToTop");
+        btnscrollToTop.addEventListener("click", function () {
+            $("body, html").animate({ scrollTop: 0 }, "slow");
+        });
+
+        //   const fadetext = document.querySelector(".fancy");
+        //   const strText = fadetext.textContent;
+        //   console.log(strText);
+        //   const splitText = strText.split("");
+        //   fadetext.textContent = "";
+        //   for (let i = 0; i < splitText.length; i++) {
+        //       fadetext.innerHTML += "<span>" + splitText[i] + "</span>";
+        //   }
+        //   let char = 0;
+        //   let timer = setInterval(onTick, 50);
+        //   function onTick() {
+        //       const span = fadetext.querySelectorAll('span')[char];
+        //       span.classList.add('fade');
+        //       char++;
+        //       if (char === splitText.length) {
+        //           complete();
+        //           return;
+        //       }
+        //   }
+        //   function complete() {
+        //       clearInterval(timer);
+        //       timer = null;
+        //   }
+    </script>
+</body>
+
+</html>
